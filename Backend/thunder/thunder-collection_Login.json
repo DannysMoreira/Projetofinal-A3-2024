@@ -1,0 +1,28 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Login",
+    "collectionId": "0ade3815-5b2c-413f-b229-4fca8a0e576d",
+    "dateExported": "2024-06-07T01:14:01.733Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "d1aea75c-9be5-46ad-a83c-2f67967ffe4d",
+            "colId": "0ade3815-5b2c-413f-b229-4fca8a0e576d",
+            "containerId": "",
+            "name": "login",
+            "url": "http://localhost:3001/auth/login",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-06-06T23:18:31.587Z",
+            "modified": "2024-06-07T00:36:27.691Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\": \"danilo@email.com\",\n  \"senha\": \"Danilo199@\"\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "4wEtua5seknncURIKQ4hBWuYAGLketp2QAQe-WRj0im9pWrSBr9O5KCL9_4PhoguXxmMDL1-gRJhhSXt4oArOQ"
+}

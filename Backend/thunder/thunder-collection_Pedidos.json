@@ -1,0 +1,81 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Pedidos",
+    "collectionId": "d4871a74-6ad5-475b-85ed-9aca930819c7",
+    "dateExported": "2024-06-07T01:14:41.836Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "35f743a9-b810-4759-9655-cd449dd278ea",
+            "colId": "d4871a74-6ad5-475b-85ed-9aca930819c7",
+            "containerId": "",
+            "name": "criar pedido",
+            "url": "localhost:3001/pedidos",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-06-06T23:52:27.770Z",
+            "modified": "2024-06-07T00:30:06.451Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n  \"data_compra\": \"23/02/2024\",\r\n  \"preco_total\": 150.57,\r\n  \"status\": \"Em andamento\",\r\n  \"userId\": 1\r\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "d36d0dd6-86ea-4d76-be24-f3bc8e40afd4",
+            "colId": "d4871a74-6ad5-475b-85ed-9aca930819c7",
+            "containerId": "",
+            "name": "achar todos os pedidos",
+            "url": "localhost:3001/pedidos",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-06-06T23:53:24.409Z",
+            "modified": "2024-06-06T23:53:31.550Z",
+            "headers": []
+        },
+        {
+            "_id": "322d4453-d46f-4ac4-abcb-6bfe263702e0",
+            "colId": "d4871a74-6ad5-475b-85ed-9aca930819c7",
+            "containerId": "",
+            "name": "achar um pedido",
+            "url": "localhost:3001/pedidos/1",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-06-06T23:53:46.017Z",
+            "modified": "2024-06-07T00:30:24.474Z",
+            "headers": []
+        },
+        {
+            "_id": "133860fb-9d2b-4900-abcf-07bd4c3b554b",
+            "colId": "d4871a74-6ad5-475b-85ed-9aca930819c7",
+            "containerId": "",
+            "name": "atualizar pedido",
+            "url": "localhost:3001/pedidos/1",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-06-06T23:54:18.362Z",
+            "modified": "2024-06-07T00:31:14.083Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"status\": \"concluido\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "f174cf02-d0a4-47d5-9fb7-761a47bd74bc",
+            "colId": "d4871a74-6ad5-475b-85ed-9aca930819c7",
+            "containerId": "",
+            "name": "deletar pedido",
+            "url": "localhost:3001/pedidos/id",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-06-06T23:54:51.470Z",
+            "modified": "2024-06-06T23:55:02.679Z",
+            "headers": []
+        }
+    ],
+    "ref": "UF7qN1P1QwCbb0mdDuzCO3KPjpFiiIvKnt-IUT8TZzmk7raRG9gd53138nnHOMLYabircZAeeDXNRGiaikCGnQ"
+}

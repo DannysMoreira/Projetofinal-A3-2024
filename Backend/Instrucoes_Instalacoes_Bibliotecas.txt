@@ -1,0 +1,27 @@
+npm install -g @nestjs/cli
+appdata - roaming - npm
+set path=%path%;C:\Users\822166164\AppData\Roaming\npm
+nest --version
+npm install @nestjs/typeorm typeorm mysql2
+npm install @nestjs/jwt
+npm install @nestjs/passport passport passport-jwt bcryptjs
+npm install @types/bcryptjs @types/passport-jwt
+npm install @nestjs/config
+npm install class-validator
+npm i @nestjs/mapped-types
+npm install class-transformer
+npm install @nestjs/swagger swagger-ui-express
+
+.env{
+DB_TYPE=mysql
+DB_HOST=localhost
+DB_PORT=3306
+DB_USERNAME=root
+DB_PASSWORD=anima123
+DB_DATABASE=padaria
+DB_ENTITIES=dist/**/*.entity{.ts,.js}
+DB_SYNCHRONIZE=true
+DB_LOGGING=true
+JWT_SECRET=MinhaPalavraSecreta
+}
+

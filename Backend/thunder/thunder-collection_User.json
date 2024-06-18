@@ -1,0 +1,81 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "User",
+    "collectionId": "c72b85b6-133a-4f66-ba21-798b3ffacf96",
+    "dateExported": "2024-06-07T01:14:33.219Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "31abb684-8e60-4006-b9ea-a0e245531c47",
+            "colId": "c72b85b6-133a-4f66-ba21-798b3ffacf96",
+            "containerId": "",
+            "name": "criar usuario",
+            "url": "localhost:3001/user",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-06-06T23:22:12.942Z",
+            "modified": "2024-06-07T00:26:26.830Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n  \"nome\": \"Danilo\",\r\n  \"email\": \"danilo@email.com\",\r\n  \"senha\": \"Danilo199@\",\r\n  \"tipo\": \"admin\"\r\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "c69005a3-d3c0-464b-8dad-090da081e8db",
+            "colId": "c72b85b6-133a-4f66-ba21-798b3ffacf96",
+            "containerId": "",
+            "name": "achar todos os usuarios",
+            "url": "localhost:3001/user",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-06-06T23:46:50.347Z",
+            "modified": "2024-06-06T23:47:27.177Z",
+            "headers": []
+        },
+        {
+            "_id": "94ec75ff-b88f-4d9f-976d-e2b93efd468b",
+            "colId": "c72b85b6-133a-4f66-ba21-798b3ffacf96",
+            "containerId": "",
+            "name": "achar um usuario",
+            "url": "localhost:3001/user/1",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-06-06T23:47:47.658Z",
+            "modified": "2024-06-07T00:26:37.416Z",
+            "headers": []
+        },
+        {
+            "_id": "f2f47de0-eddf-4302-9b97-db161c6089de",
+            "colId": "c72b85b6-133a-4f66-ba21-798b3ffacf96",
+            "containerId": "",
+            "name": "atualizar usuario",
+            "url": "localhost:3001/user/1",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-06-06T23:49:30.428Z",
+            "modified": "2024-06-07T00:28:53.120Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\": \"as\",\n  \"senha\": \"dfs\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "5971061a-4658-4c05-80ca-592cb451df5f",
+            "colId": "c72b85b6-133a-4f66-ba21-798b3ffacf96",
+            "containerId": "",
+            "name": "deletar usuario",
+            "url": "localhost:3001/user/id",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-06-06T23:50:24.403Z",
+            "modified": "2024-06-06T23:50:38.892Z",
+            "headers": []
+        }
+    ],
+    "ref": "a-OFqaEIZQNGZeoUZg5INoJIe-gzi1L04RZGjT0KVDnq1pkcclofVxqy2VC0XncDcNCSd8G16TXA3G057UvugA"
+}
